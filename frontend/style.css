@@ -1,0 +1,155 @@
+/* frontend/style.css */
+
+/* Général */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f0f4f8;
+    color: #333;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header */
+header {
+    background: linear-gradient(90deg, #4CAF50, #2E7D32);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+header nav a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background: #2E7D32;
+    color: white;
+    padding: 1rem;
+    margin-top: auto;
+    text-align: center;
+}
+
+/* Main */
+main {
+    padding: 2rem;
+    flex: 1;
+}
+
+/* Formulaires */
+form {
+    max-width: 400px;
+    margin: 2rem auto;
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin: 1rem 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Cartes de recettes */
+.recipe-card {
+    background: white;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 1rem auto;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    max-width: 600px;
+}
+
+.recipe-card h3 {
+    color: #2E7D32;
+}
+
+.recipe-card p {
+    margin-top: 0.5rem;
+}
+
+/* Section recettes */
+#recipes-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Favoris */
+.favorite-icon {
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: gold;
+}
+
+.favorite-icon:hover {
+    color: orange;
+}
+
+/* Admin dashboard */
+.admin-section {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    margin: 2rem auto;
+    max-width: 700px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.admin-section h2 {
+    color: #4CAF50;
+}
+
+.table-admin {
+    width: 100%;
+    margin-top: 1rem;
+    border-collapse: collapse;
+}
+
+.table-admin th, .table-admin td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.table-admin th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.table-admin tr:nth-child(even) {
+    background-color: #f2f2f2;
+}

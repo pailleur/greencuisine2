@@ -1,0 +1,47 @@
+<!-- frontend/recipe.html -->
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Détail Recette - GreenCuisine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>GreenCuisine</h1>
+    <nav>
+        <a href="index.html">Accueil</a>
+        <a href="favorites.html">Mes Favoris</a>
+        <a href="dashboard.html">Tableau de bord</a>
+    </nav>
+</header>
+
+<main>
+    <div id="recipe-detail">
+        <!-- Détail de la recette chargée ici -->
+    </div>
+
+    <section id="comments-section">
+        <h3>Commentaires</h3>
+
+        <div id="comments-list">
+            <!-- Commentaires affichés ici -->
+        </div>
+
+        <form id="comment-form">
+            <textarea id="comment-content" placeholder="Votre commentaire..." required></textarea><br>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2025 GreenCuisine. Tous droits réservés.</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
