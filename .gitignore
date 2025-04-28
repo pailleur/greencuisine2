@@ -15,10 +15,6 @@ jspm_packages/
 dist/
 build/
 
-# Local env files
-.env
-.env.local
-.env.*.local
 
 # IDEs and editors
 .vscode/
